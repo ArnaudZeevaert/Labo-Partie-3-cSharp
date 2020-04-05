@@ -16,10 +16,9 @@ Les données :
 * contient un nom (string)
 * contient éventuellement une description (string)
 > une classe série
-* hérite de la classe séance
-* contient en plus un int pour le nombre de répétitions
-* contient en plus un double pour la charge utilisée
-* contient en plus le temps de repos
+* contient un int pour le nombre de répétitions
+* contient un double pour la charge utilisée
+* contient le temps de repos
 > une classe exercice 
 * qui hérite de exerciceBase
 * qui contient en plus : une collection de série, et un objet note  
@@ -29,7 +28,7 @@ Les données :
 > une classe entrainement
 * un nom (string)
 * une collection de séance
-* une classe personne 
+> une classe personne 
 * contient différentes information sur cette personne : nom, prénom, age, sexe, ...
 * contient une collection entrainement
  
